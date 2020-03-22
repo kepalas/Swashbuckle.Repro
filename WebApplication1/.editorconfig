@@ -1,0 +1,9 @@
+﻿[*.cs]
+
+# IDE0044: Make field readonly
+dotnet_diagnostic.IDE0044.severity = silent
+### TODO: investigate if the field should be readonly
+
+# CS1591: Missing XML comment for publicly visible type or member
+dotnet_diagnostic.CS1591.severity = silent
+### TODO: Add missing comments
